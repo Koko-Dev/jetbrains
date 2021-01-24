@@ -23,10 +23,12 @@
     
           <nav>
               <ul>
-                  <li><a href="">Marketplace</a></li>
-                  <li><a href="">Resources</a></li>
-                  <li><a href="">Sign In</a></li>
-                  <li><a href="">Search</a></li>
+                  <li><a href="" class="navLeftItem">Marketplace</a></li>
+                  <li>
+                      <a href="" class="firstNavRight navRight">Resources</a>
+                  </li>
+                  <li><a href="" class="navRight">Sign In</a></li>
+                  <li><a href="" class="navRight">Search</a></li>
               </ul>
           </nav>
       </header>
@@ -36,70 +38,80 @@
       
 <!--    Main box -->
     <main>
-<!--      Main title -->
-      <div class="main-title">
-        <h1>Explore plugins for Jetbrains</h1>
-      </div>
-      <!-- /.main-title -->
-      
-<!--      Mid Box and Search -->
-      <div class="midbox">
-<!--        Tools-->
-        <div class="tools"></div>
-        <!-- /.tools -->
+        <div class="container">
+            <!--      Main title -->
+            <div class="main-title">
+                <h1>Explore plugins for JetBrains Products</h1>
+            </div>
+            <!-- /.main-title -->
+    
+            <!--      Mid Box and Search -->
+            <div class="midbox">
+                <!--        Tools-->
+                <div class="tools">
+                    <a href=""
+                       class="mid active first">IntelliJ Platform</a>
+                    <!-- /.mid -->
+                    <a href=""
+                       class="mid">Team Tools</a>
+                    <!-- /.mid -->
+                    <a href=""
+                       class="mid">.NET Tools</a>
+                    <!-- /.mid -->
+                    <label for="search"></label>
+                    <input type="text"
+                           class="text"
+                           id="search"
+                           placeholder="Search all 2417 RubyMine plugins">
+                    <!-- /#search.text -->
+                    <a href="#" class="midline-search">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+                <!-- /.tools -->
+            </div>
+            <!-- /.midbox -->
+    
+            <!--      Bottom box -->
+            <div class="bottombox">
+                <!--        IntelliJ  -->
+                <ul class="intelliJ">
+                    <li><a href="">IntelliJ IDEA Ultimate</a></li>
+                    <li><a href="">Community</a></li>
+                    <li><a href="">Educational</a></li>
+                </ul>
+                <!-- /.intelliJ -->
         
-<!--        Search -->
-        <div class="search">
-          <label for="search"></label>
-          <input type="text"
-                 class="text"
-                 id="search"
-                 placeholder="Search all 2417 RubyMine plugins">
-          <!-- /#search.text -->
-          <a href="#" class="midline-search">
-            <i class="fas fa-search"></i>
-          </a>
+                <!--        PyCharm -->
+                <ul class="pycharm">
+                    <li><a href="">PyCharm Professional</a></li>
+                    <li><a href="">Community</a></li>
+                    <li><a href="">Educational</a></li>
+                </ul>
+                <!-- /.pycharm -->
+        
+                <ul class="option-1">
+                    <li><a href="">PhpStorm</a></li>
+                    <li><a href="">WebStorm</a></li>
+                    <li><a href="">Android Studio</a></li>
+                    <li><a href="">AppCode</a></li>
+                </ul>
+                <!-- /.option-1 -->
+        
+                <ul class="option-2">
+                    <li><a href="" class="active">RubyMine</a></li>
+                    <li><a href="">Rider</a></li>
+                    <li><a href="">DataGrip</a></li>
+                    <li><a href="">MPS</a></li>
+                    <li><a href="">GoLand</a></li>
+                </ul>
+                <!-- /.option-2 -->
+            </div>
+            <!-- /.bottombox -->
+            
         </div>
-        <!-- /.search -->
-      </div>
-      <!-- /.midbox -->
-      
-<!--      Bottom box -->
-      <div class="bottombox">
-<!--        IntelliJ  -->
-        <ul class="intelliJ">
-          <li><a href="">IntelliJ IDEA Ultimate</a></li>
-          <li><a href="">Community</a></li>
-          <li><a href="">Educational</a></li>
-        </ul>
-        <!-- /.intelliJ -->
-        
-<!--        PyCharm -->
-        <ul class="pycharm">
-          <li><a href="">PyCharm Professional</a></li>
-          <li><a href="">Community</a></li>
-          <li><a href="">Educational</a></li>
-        </ul>
-        <!-- /.pycharm -->
-        
-        <ul class="option-1">
-          <li><a href="">PhpStorm</a></li>
-          <li><a href="">WebStorm</a></li>
-          <li><a href="">Android Studio</a></li>
-          <li><a href="">AppCode</a></li>
-        </ul>
-        <!-- /.option-1 -->
-        
-        <ul class="option-2">
-          <li><a href="" class="active">RubyMine</a></li>
-          <li><a href="">Rider</a></li>
-          <li><a href="">DataGrip</a></li>
-          <li><a href="">MPS</a></li>
-          <li><a href="">GoLand</a></li>
-        </ul>
-        <!-- /.option-2 -->
-      </div>
-      <!-- /.bottombox -->
+        <!-- /.container -->
+
       
     </main>
   </body>

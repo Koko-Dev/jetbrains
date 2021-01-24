@@ -1,25 +1,136 @@
 
 header img {
   height: 80px;
+  margin-left: 100px;
 }
 
 body {
   height:600px;
-  background-image: url("./../images/hero.svg");
-  background-repeat: no-repeat;
+  width: 100%;
+  z-index: 3;
   font-family: sans-serif;
+  margin-top: 35px;
+  padding: 40px;
 }
 
 header {
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0,0,0,0.85);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   height: 80px;
+  display: flex;
+  align-items: center;
 }
+
+
 
 header * {
   display: inline;
   color: white;
 }
+
+header li {
+  margin: 20px;
+}
+
+header li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a.navLeftItem {
+  margin-right: 400px;
+}
+
+main {
+  width: 100%;
+  margin: 0;
+  height: 633px;
+  background-image: url("./../images/hero.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  transition: all 0s;
+  margin-top: 6px;
+}
+
+main div.container {
+  outline: 2px solid yellow;
+  background-color: rgba(0,0,0,.95);
+  width: 100%;
+  max-width: 90%;
+  height: auto;
+  margin-top: -1px;
+  position: relative;
+  left: 8em;
+  top: 6em;
+  z-index: 4;
+  box-sizing: border-box;
+  padding: 5px;
+
+}
+
+main div.container * {
+  color: #ffffff;
+
+}
+
+div.main-title {
+  /*outline: 2px solid red;*/
+  font-size: 1.8em;
+  padding-left: 3em;
+  padding-bottom: 2em;
+  /*width: 100%;*/
+  letter-spacing: 1.2px;
+  font-weight: bolder;
+  line-height: 2em;
+}
+
+
+
+.tools a.mid {
+  color: #d3d3d3aa;
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+
+.tools a.mid.active {
+  color: white;
+}
+
+.midbox div.tools {
+
+  height: 80px;
+
+  /*border: 2px solid lightgrey;*/
+  position: relative;
+}
+
+div.midbox .tools a.mid {
+  position: relative;
+  color: lightgrey;
+  /*outline: 1px solid lightgreen;*/
+  padding: 12px 25px ;
+  margin: 25px;
+  font-size: 1.8em;
+  text-decoration: none;
+}
+
+div.midbox .tools a.mid.first {
+  border-left: 3px solid #d3d3d3;
+  border-top: 3px solid #d3d3d3;
+  border-bottom: 3px solid #d3d3d3;
+  border-radius: 20%;
+  padding-right: 35px;
+
+}
+
+
+
+
+
